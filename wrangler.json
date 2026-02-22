@@ -1,0 +1,7 @@
+{
+    "name": "toggleflow-showcase",
+    "compatibility_date": "2024-02-22",
+    "assets": {
+        "directory": "./dist"
+    }
+}
