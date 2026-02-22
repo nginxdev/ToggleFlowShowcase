@@ -5,6 +5,15 @@ export const Hero = () => {
     return (
         <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
             <div className="relative max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center text-center">
+                <div className="flex items-center gap-2 mb-12">
+                    <div className="w-12 h-12">
+                        <div className="w-full h-full rounded-[15px] bg-white flex items-center justify-center">
+                            <Zap className="w-6 h-6 text-blue-600 fill-blue-600" />
+                        </div>
+                    </div>
+                    <span className="text-2xl font-bold tracking-tight text-neutral-900">ToggleFlow</span>
+                </div>
+
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-sm text-blue-700 mb-8 hover:bg-blue-100 transition-colors cursor-pointer">
                     <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
                     ToggleFlow is in Active Development
