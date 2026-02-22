@@ -14,10 +14,6 @@ function App() {
                 <div>
                     <Hero />
                 </div>
-
-                <footer className="py-8 text-center text-neutral-500 text-sm border-t border-neutral-200 bg-white/50 backdrop-blur-md">
-                    <p>© {new Date().getFullYear()} ToggleFlow. Crafted with precision.</p>
-                </footer>
             </div>
         </main>
     );
